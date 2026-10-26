@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>PVR Pro Audio | DJ, Sound & Event Production</title>
+  <meta name="description" content="PVR Pro Audio provides DJ, professional sound systems, lighting, LED screens, equipment rental and stage setup for events.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <header class="site-header">
+    <nav class="navbar container">
+      <a class="brand" href="#home" aria-label="PVR Pro Audio home">
+        <span class="brand-icon">PVR</span>
+        <span class="brand-text">PRO <span>AUDIO</span></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle"
+        aria-label="Open navigation" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a class="nav-cta" href="#contact">Book Your Event</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero" id="home">
+      <div class="hero-overlay"></div>
+
+      <div class="container hero-content">
+        <p class="eyebrow">SOUND • LIGHTS • EXPERIENCES</p>
+
+        <h1>WE MAKE YOUR<br>
+          EVENTS <span>LOUDER.</span>
+        </h1>
+
+        <p class="hero-description">
+          Professional DJ, sound, lighting, LED screens and stage
+          production to make every event unforgettable.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#contact" class="btn btn-gold">Plan Your Event</a>
+          <a href="#services" class="btn btn-outline">Explore Services</a>
+        </div>
+
+        <div class="hero-tagline">
+          <span class="live-dot"></span>
+          YOUR EVENT. OUR ENERGY.
+        </div>
+      </div>
+
+      <a href="#services" class="scroll-indicator" aria-label="Scroll to services">
+        <span>SCROLL TO EXPLORE</span>
+        <span class="scroll-arrow">↓</span>
+      </a>
+    </section>
+
+    <!-- Services -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE DO</p>
+          <h2>OUR <span>SERVICES</span></h2>
+          <p>
+            Everything you need to create an amazing event,
+            all under one roof.
+          </p>
+        </div>
+
+        <div class="services-grid">
+
+          <article class="service-card">
+            <div class="service-image dj-image">
+              <span class="service-number">01</span>
+            </div>
+            <div class="service-info">
+              <h3>DJ SERVICES</h3>
+              <p>Bring the energy with music and DJ setups for your event.</p>
+              <button class="service-link" data-service="DJ Services">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image sound-image">
+              <span class="service-number">02</span>
+            </div>
+            <div class="service-info">
+              <h3>SOUND SYSTEMS</h3>
+              <p>Powerful audio setups for clear, immersive sound.</p>
+              <button class="service-link" data-service="Sound Systems">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image lighting-image">
+              <span class="service-number">03</span>
+            </div>
+            <div class="service-info">
+              <h3>EVENT LIGHTING</h3>
+              <p>Dynamic lighting to transform your venue and atmosphere.</p>
+              <button class="service-link" data-service="Event Lighting">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image led-image">
+              <span class="service-number">04</span>
+            </div>
+            <div class="service-info">
+              <h3>LED SCREENS</h3>
+              <p>Visual displays for weddings, parties and corporate events.</p>
+              <button class="service-link" data-service="LED Screens">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image rental-image">
+              <span class="service-number">05</span>
+            </div>
+            <div class="service-info">
+              <h3>EQUIPMENT RENTAL</h3>
+              <p>Event equipment rental to match your production needs.</p>
+              <button class="service-link" data-service="Equipment Rental">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+          <article class="service-card">
+            <div class="service-image stage-image">
+              <span class="service-number">06</span>
+            </div>
+            <div class="service-info">
+              <h3>STAGE SETUP</h3>
+              <p>Stage and production setups tailored to your event.</p>
+              <button class="service-link" data-service="Stage Setup">
+                Enquire Now <span>↗</span>
+              </button>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img
+            src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=1000&q=85"
+            alt="Live event with stage lights and an audience"
+            loading="lazy">
+
+          <div class="about-stamp">
+            <span>BUILT FOR</span>
+            <strong>BIG</strong>
+            <span>MOMENTS</span>
+          </div>
+        </div>
+
+        <div class="about-content">
+          <p class="eyebrow">ABOUT PVR PRO AUDIO</p>
+          <h2>YOUR VISION.<br>OUR <span>PRODUCTION.</span></h2>
+
+          <p>
+            Every great event deserves great sound, lighting and production.
+            PVR Pro Audio helps bring events to life with event audio,
+            DJ setups, lighting, LED displays and stage solutions.
+          </p>
+
+          <p>
+            Whether you're planning a celebration, wedding, party or
+            corporate event, tell us what you have in mind and we'll
+            discuss a setup that fits your requirements.
+          </p>
+
+          <a href="#contact" class="btn btn-gold">Let's Talk About Your Event</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">THE EXPERIENCE</p>
+          <h2>EVENT <span>GALLERY</span></h2>
+          <p>A glimpse of the atmosphere we're here to help create.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <img
+            src="https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?auto=format&fit=crop&w=900&q=85"
+            alt="Concert stage with colourful lighting" loading="lazy">
+
+          <img
+            src="https://images.unsplash.com/photo-1506157786151-b8491531f063?auto=format&fit=crop&w=900&q=85"
+            alt="Live music event" loading="lazy">
+
+          <img
+            src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=85"
+            alt="Crowd enjoying a live event" loading="lazy">
+
+          <img
+            src="https://images.unsplash.com/photo-1501612780327-45045538702b?auto=format&fit=crop&w=900&q=85"
+            alt="Music performance and stage lighting" loading="lazy">
+        </div>
+
+        <p class="gallery-note">
+          These are sample photos. Replace them with actual PVR Pro Audio
+          event photos before publishing.
+        </p>
+      </div>
+    </section>
+
+    <!-- Contact / Enquiry -->
+    <section class="section contact-section" id="contact">
+      <div class="container contact-grid">
+
+        <div class="contact-content">
+          <p class="eyebrow">LET'S MAKE IT HAPPEN</p>
+          <h2>GOT AN EVENT?<br><span>LET'S TALK.</span></h2>
+
+          <p>
+            Tell us a little about your event. We'll help you discuss
+            the services and setup you need.
+          </p>
+
+          <div class="contact-feature">
+            <span class="feature-icon">01</span>
+            <div>
+              <h3>Tell Us Your Plan</h3>
+              <p>Share your event date, location and requirements.</p>
+            </div>
+          </div>
+
+          <div class="contact-feature">
+            <span class="feature-icon">02</span>
+            <div>
+              <h3>Discuss Your Setup</h3>
+              <p>We'll use your enquiry to start discussing the details.</p>
+            </div>
+          </div>
+
+          <div class="contact-feature">
+            <span class="feature-icon">03</span>
+            <div>
+              <h3>Confirm Your Booking</h3>
+              <p>Finalize availability, services and pricing directly with us.</p>
+            </div>
+          </div>
+        </div>
+
+        <form class="enquiry-form" id="enquiryForm">
+          <h3>EVENT ENQUIRY</h3>
+          <p class="form-intro">Fill in your details to get started.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="customerName">Your Name *</label>
+              <input type="text" id="customerName" name="name"
+                placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+              <label for="customerPhone">Phone Number *</label>
+              <input type="tel" id="customerPhone" name="phone"
+                placeholder="Your contact number"
+                inputmode="tel" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="eventType">Service Required *</label>
+            <select id="eventType" name="service" required>
+              <option value="">Select a service</option>
+              <option>DJ Services</option>
+              <option>Sound Systems</option>
+              <option>Event Lighting</option>
+              <option>LED Screens</option>
+              <option>Equipment Rental</option>
+              <option>Stage Setup</option>
+              <option>Multiple Services</option>
+              <option>Other / Not Sure Yet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="eventDate">Event Date</label>
+              <input type="date" id="eventDate" name="date">
+            </div>
+
+            <div class="form-group">
+              <label for="eventLocation">Event Location *</label>
+              <input type="text" id="eventLocation" name="location"
+                placeholder="City or venue" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="eventDetails">Event Details</label>
+            <textarea id="eventDetails" name="details" rows="4"
+              placeholder="Event type, hours, equipment needs, budget..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-gold submit-btn">
+            Send Enquiry on WhatsApp <span>↗</span>
+          </button>
+
+          <p class="form-note">
+            Your enquiry opens in WhatsApp for you to send.
+            Your booking is not confirmed until the business confirms it.
+          </p>
+
+          <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+
+    <!-- Final CTA -->
+    <section class="final-cta">
+      <div class="container final-cta-inner">
+        <div>
+          <p class="eyebrow">MAKE YOUR NEXT EVENT COUNT</p>
+          <h2>LET'S TURN IT UP.</h2>
+        </div>
+        <a href="#contact" class="btn btn-gold">Start Your Enquiry ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">
+        <span class="brand-icon">PVR</span>
+        <span class="brand-text">PRO <span>AUDIO</span></span>
+      </a>
+
+      <p>Sound. Lights. Experiences.</p>
+
+      <p class="copyright">
+        © <span id="currentYear"></span> PVR Pro Audio. All rights reserved.
+      </p>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp button -->
+  <a href="#contact" class="whatsapp-float"
+    aria-label="Send a booking enquiry">
+    <span aria-hidden="true">✆</span>
+    <span>ENQUIRE NOW</span>
+  </a>
+
+</body>
+</html> 
